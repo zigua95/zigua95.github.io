@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="Application/msword">
+		<title>index file</title>
+	</head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: #333;
+		}
+		.container {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			padding: 50px;
+		}
+		.wel {
+			font-size: 20px;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 50px;
+			color: #fff;
+		}
+		.wel a{
+			text-decoration: none;
+			font-size: 4px;
+			color: #f441a5;
+		}
+		.btnGrp {
+			max-width: 400px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		.btnGrp a{
+			width: 200px;
+			height: 100px;
+			line-height: 100px;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;  
+			font-size: 24px;
+			background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+			background-size: 400%;
+			text-transform: uppercase;
+			border-radius: 50px;
+			z-index: 1;
+			margin: 5px 0;
+		}
+		.btnGrp a:hover{
+			animation: sun 8s infinite;
+		}
+		@keyframes sun{
+			100%{
+				background-position: -400% 0;
+			}
+		}
+	</style>
+
+	<script type="text/javascript">
+		console.log('this is a game file');
+		console.log('welcome to the game palce!');
+	</script>
+
+	<body>
+		<div id="container" class="container">
+			<div id="wel" class="wel">
+				<!-- <p>亲爱的 小刘同学！&nbsp;欢迎您👏&nbsp;祝开心😄😄</p> -->
+				<!-- <a href="./caidan.html">彩蛋</a> -->
+			</div>
+			<div id="btnGrp" class="btnGrp">
+				<a href="./nine/index.html">九宫格拼图</a>
+				<a href="./squre/index.html">俄罗斯方块</a>
+				<a href="./wuziqi/index.html">五子棋游戏</a>
+				<a href="./snakeA/index.html">贪吃蛇游戏A</a>
+				<a href="./snakeB/index.html">贪吃蛇游戏B</a>
+				<a href="./snakeC/dist/dist/snake.html">贪吃蛇游戏C</a>
+				<a href="./snakeD/index.html">贪吃蛇游戏D</a>
+			</div>
+		</div>
+	</body>
+</html>
